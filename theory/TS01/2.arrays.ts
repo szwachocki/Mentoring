@@ -1,4 +1,4 @@
-console.log("\n--------Arrays--------\n")
+ console.log("\n--------Arrays--------\n")
 
 // Tablice (Arrays) - tablica to lista elementów
 // na przykład stwórzmy tablicę liczb:

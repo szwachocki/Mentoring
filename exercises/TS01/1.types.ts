@@ -20,7 +20,28 @@
 
 //// TODO:
 //// -----------------------TUTAJ UMIEŚĆ SWOJE ROZWIĄZANIE:-------------------------
+// 1.
 
+let userName;
+let userId;
+let userNames = []; 
+let userIds = [];   
+
+// 2.
+userName = "Bob";
+
+// 3. 
+userId = 412;
+
+// 4. 
+userNames.push(userName);
+
+// 5. 
+userIds.push(userId);
+
+// 6. 
+console.log("userNames:", userNames);
+console.log("userIds:", userIds);
 
 //// -----------------------NIE MODYFIKUJ KODU PONIŻEJ!-------------------------
 // Tutaj znajdziesz oczekiwany rezultat zadania
