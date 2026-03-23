@@ -40,8 +40,8 @@ userNames.push(userName);
 userIds.push(userId);
 
 // 6. 
-console.log("userNames:", userNames);
-console.log("userIds:", userIds);
+console.log(userNames);
+console.log(userIds);
 
 //// -----------------------NIE MODYFIKUJ KODU PONIŻEJ!-------------------------
 // Tutaj znajdziesz oczekiwany rezultat zadania
