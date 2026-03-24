@@ -8,4 +8,5 @@ console.log("Druga tablica");
 let SecondArray: string[];
 SecondArray=["Samo", "geste", "az sie paski grzeja na pompie"]; 
 SecondArray.push("inwestycja powoli się zwraca");
-console.log(SecondArray)
+console.log(SecondArray);
+SecondArray.push("1")
