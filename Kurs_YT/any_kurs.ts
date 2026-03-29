@@ -1,11 +1,11 @@
 console.log("Typ any jest jak dla mnie nielogiczny")
 let FirstAnyVariable: any
 FirstAnyVariable = 1
-console.log("teraz jest to:", typeof FirstAnyVariable)
+console.log("number:", typeof FirstAnyVariable)
 FirstAnyVariable = true
-console.log("teraz jest to:", typeof FirstAnyVariable)
-FirstAnyVariable = "jako tako"
-console.log("a teraz :", typeof FirstAnyVariable)
+console.log(" boolean teraz jest to:", typeof FirstAnyVariable)
+FirstAnyVariable = 2+"jako tako"+1+true
+console.log("string a teraz :", FirstAnyVariable)
 console.log("Wg mnie to się powinno nadpisywa ;)") // w pierwszej wersji nie użyłem typeof
 
 let AdditionalVariableOne: number
