@@ -9,3 +9,15 @@ console.log("Moja Jeden: ", ZmiennaJeden);
 console.log("Moja dwa: ", ZmiennaDwa);
 console.log("Moja trzy: ", ZmienaTrzy);
 console.log("sprawdziłem i jest to: ", typeof ZmiennaCztery);
+
+const secondName = "Jarek"
+
+console.log("Drugie podejście głąba", secondName)
+
+let thirdvariable: number
+thirdvariable = 12
+console.log("zmienna najpierw zdeklarowany typ potem wartoć", thirdvariable)
+
+let FourthVariableB = true
+FourthVariableB = false
+console.log("Najpierw TRUE potem False dale =", FourthVariableB)
