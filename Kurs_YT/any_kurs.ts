@@ -15,3 +15,11 @@ const AdditionalVariableThree: boolean = true // tu miałem fajną sytuację bo 
 AdditionalVariableOne=1
 AdditionalVariableTwo="String Variable"
 console.log("Pierwsza", typeof AdditionalVariableOne, "druga", typeof AdditionalVariableTwo, "trzecia", typeof AdditionalVariableThree)
+
+console.log("Reaktywacja typu ANY")
+
+let SecondAnyVariable: any 
+SecondAnyVariable=1
+SecondAnyVariable="jeden"
+SecondAnyVariable=true
+console.log("Any any any to =", typeof SecondAnyVariable) // dodany typof
