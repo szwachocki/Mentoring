@@ -24,11 +24,11 @@ function FnThird(numberOne: number, numberTwo: number): number {
     const result = numberOne + numberTwo // zadziałało z let zamiast const
     return result
 }
-const result1 = FnThird(1, 9)
+const result = FnThird(1, 9)
 console.log("trele morele", result1) // jak wpisałem po result bez 1 to tez zadziałało
 
 console.log("Funkcja z wartościami z błędem")
-const result2 = FnThird('małpa', 9) // warczy poprzez podkreślenie małpy ale wywołanie
+const result2 = FnThird('małpa', "krowa") // warczy poprzez podkreślenie małpy ale wywołanie
 //daje wynik "małpa9"
 console.log("małpa", result2)
 
