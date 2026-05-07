@@ -21,5 +21,3 @@ console.log("Strzałkowa")
  }
  let NumbersForArrow = ArrowFn(5, 15) //dałem let taki ze mnie wariat
  console.log("Rozkminiam co daje funkcja", ArrowFn, NumbersForArrow)
-
-

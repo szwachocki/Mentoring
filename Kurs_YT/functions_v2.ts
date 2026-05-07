@@ -21,6 +21,6 @@ function Dodawanie(numerJeden: number, numerDwa: number, numerTrzy: number): num
     const result8888 = numerJeden + numerDwa + numerTrzy
     return result8888
 }
-const result8888 = Dodawanie(333, 3333, "czemu?") //czemu pod result warczy? dodałem 8888
+const result8888 = Dodawanie(333, 3333, 33) //czemu pod result warczy? dodałem 8888
 //czy nie powinno sie tak zrobić dopiero przy określeniu typu zmiennej jako any? 
-console.log("czy teraz będzie wynik?", result)
+console.log("czy teraz będzie wynik?", Dodawanie(333, 3333, 33))

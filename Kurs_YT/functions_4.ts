@@ -25,10 +25,10 @@ function FnThird(numberOne: number, numberTwo: number): number {
     return result
 }
 const result = FnThird(1, 9)
-console.log("trele morele", result1) // jak wpisałem po result bez 1 to tez zadziałało
+console.log("trele morele", result) // jak wpisałem po result bez 1 to tez zadziałało
 
 console.log("Funkcja z wartościami z błędem")
-const result2 = FnThird('małpa', "krowa") // warczy poprzez podkreślenie małpy ale wywołanie
+const result2 = FnThird(3, 6) // warczy poprzez podkreślenie małpy ale wywołanie
 //daje wynik "małpa9"
 console.log("małpa", result2)
 
