@@ -27,7 +27,27 @@
 //// TODO:
 //// -----------------------TUTAJ UMIEŚĆ SWOJE ROZWIĄZANIE:-------------------------
 
+function formatStrings(pageName: string, componentName: string): string {
+    return "Opening page '" + pageName + "' and checking '" + componentName + "'" 
+    // żeby tą poprzednią linijkę napisać musiałem się posiłkować AI
+}
+const formatStringsOutput = formatStrings("LoginPage", "UserName")
+// zapomniałem o tym, że się deklaruje zmieną która przyjmuje wartość funkcji - Czy dobrze to powiedziałem? 
 
+console.log(formatStringsOutput)
+
+
+const formatStringsPointFour = function (HomePage: string, UserName: string): string {
+    return "Opening page '" + HomePage + "' and checking '" + UserName + "'"
+}
+const formatStringsAnonymousOutput = formatStringsPointFour("HomePage", "UserName")
+console.log(formatStringsAnonymousOutput)
+
+const formatStringsArrow = (ContactPage: string, UserName: string): string => {
+    return "Opening page '" + ContactPage + "' and checking '" + UserName + "'"
+}
+const formatStringsArrowOutput = formatStringsArrow("ContactPage", "UserName")
+console.log(formatStringsAnonymousOutput)
 
 //// -----------------------NIE MODYFIKUJ KODU PONIŻEJ!-------------------------
 // Tutaj znajdziesz oczekiwany rezultat zadania
