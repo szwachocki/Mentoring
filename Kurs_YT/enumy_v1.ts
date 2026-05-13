@@ -37,3 +37,36 @@ enum MaybeString {
 console.log("Legia", MaybeString.A)
 console.log("Sparta", MaybeString.B)
 console.log("eF", MaybeString.C)
+
+
+enum WithStrings {
+    Up = "GÓRA",
+    Down = "DÓŁ"
+}
+console.log(WithStrings)
+
+
+console.log("Funkcja, ale bez enuma")
+
+function whereWeTurn(turn: string): void{
+    switch (turn) {
+        case "left":
+            console.log("skręć w lewo")
+            break
+        case "right":
+            console.log("skręć w prawo")
+            break
+        default:
+            console.log("Czy to jest element konstrukcji z JS?")
+            break
+
+    }
+}
+
+whereWeTurn("left")
+whereWeTurn("right")
+whereWeTurn("krowa")
+
+
+console.log("Z FUNKCJĄ")
+
