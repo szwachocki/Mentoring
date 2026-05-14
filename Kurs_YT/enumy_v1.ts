@@ -46,27 +46,46 @@ enum WithStrings {
 console.log(WithStrings)
 
 
-console.log("Funkcja, ale bez enuma")
+// console.log("Funkcja, ale bez enuma")
 
-function whereWeTurn(turn: string): void{
-    switch (turn) {
-        case "left":
-            console.log("skręć w lewo")
-            break
-        case "right":
-            console.log("skręć w prawo")
-            break
-        default:
-            console.log("Czy to jest element konstrukcji z JS?")
-            break
+// function whereWeTurn(turn: string): void{
+//     switch (turn) {
+//         case "left":
+//             console.log("skręć w lewo")
+//             break
+//         case "right":
+//             console.log("skręć w prawo")
+//             break
+//         default:
+//             console.log("Czy to jest element konstrukcji z JS?")
+//             break
 
+//     }
+// }
+
+// whereWeTurn("left") 
+// whereWeTurn("right")
+// whereWeTurn("krowa")
+
+
+console.log("Z FUNKCJĄ i z ENUM")
+
+function NextTimeTurn(side: WithStrings): void {
+    switch (side) {
+        case WithStrings.Up: 
+            console.log("leć w górę")
+            break
+        case WithStrings.Down:
+            console.log("Leć w dół")
+            break
+        default: 
+            console.log("czy dobrze myślę ze przed tą funkcją z casami enum musi być zdeklarowany???")
+            break
     }
 }
 
-whereWeTurn("left")
-whereWeTurn("right")
-whereWeTurn("krowa")
+NextTimeTurn(WithStrings.Up)
 
+NextTimeTurn(WithStrings.Down)
 
-console.log("Z FUNKCJĄ")
-
+NextTimeTurn(WithStrings.Dziąsło)
