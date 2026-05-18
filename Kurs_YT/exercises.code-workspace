@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../exercises"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../NowePliki"
+		},
+		{
+			"path": "../theory"
+		}
+	]
+}
