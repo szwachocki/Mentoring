@@ -51,6 +51,7 @@ function invokeAction(action: HeroActions): string {
 // Testowanie funkcji dla wszystkich wartości enum
 console.log(invokeAction(HeroActions.Attack));
 console.log(invokeAction(HeroActions.Defend));
+// console.log(invokeAction(HeroActions.Run));
 console.log(invokeAction(HeroActions.Move));
 console.log(invokeAction(HeroActions.Rest));
 
